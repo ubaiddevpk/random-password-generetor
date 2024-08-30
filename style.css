@@ -1,0 +1,78 @@
+body{
+background-image: url('./download.jpeg');
+background-size: cover;
+background-position: center;
+}
+#continer{
+ text-align: center;
+    background-color: rgb(255, 255, 255);
+height: 250px;
+width: 500px;
+border: 2px solid black ;
+align-items: center;
+border-radius: 20px;
+margin-top: 200px;
+box-shadow: 10px 8px 15px black ;
+}
+#papa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button{
+    background-color: red;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: 18px;
+    border-radius: 15px;
+    margin: 10px;
+    margin-top: 100px;
+
+}
+#button:hover {
+    background: linear-gradient(135deg, #f09819, #ff5858);
+}
+
+#input-field{
+ height: 50px;
+ border-radius: 10px;
+ width: 300px;
+ font-size: 18px;
+}
+.lable{
+   text-align: center;
+    height: 50px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius:10px ;
+    margin-right: 30px;
+    position: relative;
+   color: aliceblue;
+   top: 3px;
+   background-color: black;
+    align-content: center;
+}
+.lable1{
+    color: aliceblue;
+    background-color: black;
+    align-content: center;
+    text-align: center;
+    height: 50px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius:10px ;
+    margin-right: 30px;
+position: relative;
+top: 3px;
+
+}
+#dropdown{
+    height: 50px;
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 25px;
+    border: 1px solid black;
+    margin-left: -5px;
+    font-size: 18px;
+}
